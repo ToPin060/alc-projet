@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>200</y><w>270</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+RécupérerComposants
+--
+--
++ RécupérerComposants() : List[Composant]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>290</y><w>270</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+RequêteComposants
+--
+--
++ RequêteComposants() : List[BdComposant]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
