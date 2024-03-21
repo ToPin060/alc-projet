@@ -1,0 +1,17 @@
+Composant Interface Utilisateur:
+Ce composant est responsable de la création de l'interface utilisateur qui affichera 
+les différents composants disponibles.
+Il communique avec le composant "Liste de Composants" pour afficher ce composant.
+
+Composant Dépôt de Composants:
+Ce composant est responsable du stockage et de la récupération des composants dans un dépôt de composants.
+Il gère également les opérations CRUD (Create, Read, Update, Delete) sur ces composants.
+
+Composant Liste de Composants:
+Ce composant est responsable de l'affichage d'une liste de composants disponibles et fournit un système de sélection. 
+Il communique avec le composant "Sélection de composant" pour mettre à jour la sélection en fonction des actions de l'utilisateur
+et avec le composant "Dépôt de Composants" pour la récupération des composants à afficher.
+
+Composant Sélection de Composants:
+Ce composant est responsable de la gestion et du stockage de la sélection des composants effectuée par l'utilisateur. 
+Il communique avec le composant "Liste de Composants" pour recevoir les sélections et les mettre à jour en conséquence
