@@ -6,4 +6,9 @@ RécupérerComposants
 RequêteComposants
 --
 --
-+ RequêteComposants() : List[BdComposant]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
++ RequêteComposants() : List[BdComposant]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>200</y><w>300</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+RécupérerSélection
+--
+--
++ RécupérerComposantObligatoire() : Composant
++ RécupérerComposants() : List[Composant]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
