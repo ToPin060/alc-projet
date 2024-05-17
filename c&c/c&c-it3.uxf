@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>DatabaseAdaptateur</help_text><element><id>UMLGeneric</id><coordinates><x>150</x><y>50</y><w>280</w><h>100</h></coordinates><panel_attributes>symbol=component
+AfficheurComposants</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>150</x><y>280</y><w>280</w><h>100</h></coordinates><panel_attributes>symbol=component
+GestionneurComposants</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>140</y><w>50</w><h>90</h></coordinates><panel_attributes>lt=[^]-(</panel_attributes><additional_attributes>20;10;20;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>530</x><y>280</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+BdAdaptateur</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>300</y><w>150</w><h>60</h></coordinates><panel_attributes>lt=[&lt;]-()
+
+
+RécupérerComposants</panel_attributes><additional_attributes>90;20;50;20</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>300</y><w>80</w><h>50</h></coordinates><panel_attributes>lt=[&lt;]-(</panel_attributes><additional_attributes>10;20;50;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>210</y><w>160</w><h>90</h></coordinates><panel_attributes>lt=[^]-()
+RécupérerComposants</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>300</y><w>130</w><h>90</h></coordinates><panel_attributes>lt=[&lt;]-(
+
+
+RequêteComposants
+
+</panel_attributes><additional_attributes>40;20;80;20</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>180</y><w>150</w><h>160</h></coordinates><panel_attributes>lt=[v]-(
+RécupérerSélection
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes>20;100;20;50</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>140</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=[v]-()
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
